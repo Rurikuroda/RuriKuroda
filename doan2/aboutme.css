@@ -1,0 +1,84 @@
+
+*{
+    background-color: darkgrey;
+}
+body{  
+    font-family: 'Josefin Slab', serif;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.top-main{
+    height: 250px;
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 60px;
+}
+.main{
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    background-color: darkgrey;
+    margin: 10px 0 10px 0;
+    color: white;
+}
+/* .nav{
+   height: 70px;
+   text-align: center;
+   font-size: 30px;
+   display: inline-block;
+   padding: 0.6em 2em;
+   margin: 0 0 1em;
+   transition: all 0.3s ease 0s;
+} */
+
+/* .nav ul{
+    margin: 0;
+    padding: 0;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+    min-width: 80px;
+}
+.nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+.nav ul li a:hover{
+   position: relative;
+   text-decoration: none;
+} */
+
+.nav{
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+ }
+ .nav ul{
+     margin: 0;
+     padding: 0;
+ }
+ .nav ul li{
+     list-style: none;
+     display: inline-block;
+     width: 18%;
+     min-width: 80px;
+ }
+ .nav ul li a{
+    text-decoration: none;
+    color: white;
+ }
+
+.footer{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color:darkgrey;
+    color: white;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+}

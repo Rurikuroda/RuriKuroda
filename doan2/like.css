@@ -1,0 +1,203 @@
+
+*{
+    background-color: darkgrey;
+}
+body{  
+    font-family: 'Josefin Slab', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.top-main{
+    height: 250px;
+    text-align: center;
+    background-color:darkgrey;
+    font-size: 60px;
+}
+/* .nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.nav li a{
+    display: block;
+    padding: 3px 10px;
+    text-decoration: none;
+    width: 150px;
+    margin: 2px 0px;
+    text-align: center;
+} */
+/* .nav li a:hover{
+    background-color: darkgrey;
+    color: beige;
+} */
+
+
+.main{
+    flex: 1;
+    text-align: center;
+    background-color: darkgrey;
+    margin: 10px 0 10px 0;
+    display: flex;
+}
+
+.middle{
+    width: 100%;
+}
+
+
+.left{
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    /* text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    overflow: hidden; */
+}
+.left .caption{
+    font-size: 150%;
+    /* color: black; */
+    padding-top: 10px;
+    text-align: center;
+}
+.left .mask{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top:  -50px;
+    left: 0;
+    background-color: darkgrey;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.left:hover .mask{
+    top: 0px;
+}
+.left img{
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.left:hover img{
+    margin-top: 50px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+.center{
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    /* text-align: center;
+    padding: 30px; */
+}
+.center .caption{
+    font-size: 150%;
+    /* color: black; */
+    /* padding-top: 10px; */
+    text-align: center;
+}
+.center .mask{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: -50px;
+    left:  0;
+    background-color: darkgrey;
+    -webkit-transition: all 0.4 ease;
+    transition: all 0.4s ease;
+}
+.center:hover .mask{
+    top: 0px;
+}
+.center img{
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.center:hover img{
+    margin-top: 50px;
+    -webkit-transform: scale(1);
+    transform: scale(1.2);
+}
+
+.right{
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    /* text-align: center;
+    padding: 30px; */
+}
+.right .caption{
+    font-size: 150%;
+    /* color: black; */
+    padding-top: 10px;
+    text-align: center;
+}
+.right .mask{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    background-color: darkgrey;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.right:hover .mask{
+    top:  0px;
+}
+.right img{
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.right:hover img{
+    margin-top: 50px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.nav{
+   height: 70px;
+   text-align: center;
+   font-size: 30px;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+    min-width: 80px;
+}
+.nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+.nav li a:hover{
+    
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color:darkgrey;
+    color: white;
+    padding: 30px 0;
+    position: fixed;
+    bottom: 0;
+}
